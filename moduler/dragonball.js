@@ -1,4 +1,4 @@
-const dragonBall = {
+export const dragonBall = {
     title: "Dragon Ball",
 
     description:

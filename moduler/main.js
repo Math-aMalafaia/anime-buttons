@@ -1,3 +1,6 @@
+import {naruto} from "./naruto.js"
+import {dragonBall} from "./dragonball.js   "
+
 const narutoButton = document.getElementById("naruto-btn");
 
 const dragonBallButton = document.getElementById("dragonball-btn");
@@ -22,3 +25,6 @@ narutoButton.addEventListener("click", () => {
 dragonBallButton.addEventListener("click", () => {
     updateAnime(dragonBall);
 });
+
+console.log(dragonBallButton);
+console.log(narutoButton);

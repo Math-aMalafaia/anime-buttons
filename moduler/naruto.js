@@ -1,4 +1,4 @@
-const naruto = {
+export const naruto = {
     title: "Naruto",
     
     description:
