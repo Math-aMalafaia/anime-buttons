@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
 
-    background-color: #111;
+    background: #111;
     color: white;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -21,15 +21,19 @@ body{
 
 .container{
     text-align: center;
+    width: 600px;
 }
 
 h1{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-p{
-    margin-bottom: 20px;
-    font-size: 18px;
+.buttons{
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 button{
@@ -38,15 +42,24 @@ button{
     border: none;
     border-radius: 10px;
 
-    background-color: orange;
+    background: orange;
     color: white;
 
-    font-size: 16px;
     cursor: pointer;
+
+    font-size: 16px;
 
     transition: 0.5s;
 }
 
 button:hover{
     transform: scale(1.05);
+}
+
+.anime-content{
+    background: rgba(255,255,255,0.1);
+
+    padding: 20px;
+
+    border-radius: 10px;
 }
